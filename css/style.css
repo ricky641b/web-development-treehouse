@@ -1,0 +1,225 @@
+/*  Class Rules */
+*
+{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+h1
+{
+	font-weight: 400;
+	font-size: 2.5rem;
+}
+.mainheader
+{
+	background-color: #E8E8E8;
+	margin: 0;
+	padding: 0;
+}
+.mainheader #logo img
+{
+	/*padding: 20px 50px 20px 100px ;*/
+	margin: 25px 0px 25px 100px;
+}
+/* Top Navigaton Rules*/
+#navigation {
+    list-style-type: none;
+    overflow: auto;
+    display: block;
+    background-color: #3E3F43;
+    text-align: center;
+}
+#navigation li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font: 1.4rem 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+}
+.active {
+    background-color:#4CAF50;
+}
+#navigation li {
+	display: inline-block;
+}
+
+.maincontent #header .background
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 600px;
+	background: #ffa949 url('../images/background.jpeg') no-repeat center;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.maincontent #header .content
+{
+	position:relative;
+	z-index:2;
+	text-align: center;
+}
+.maincontent #header
+{
+	position:relative;
+	margin: auto;
+}
+.title
+{
+	font-weight: 900;
+	color: #52AAEA;
+	font-size: 3rem;
+}
+.center
+{
+	text-align: center;
+}
+.quotes
+{
+	background-color: #52AAEA;
+}
+.quotesheader
+{
+	font-weight: 2rem;
+}
+form
+{
+	margin:40px;
+}
+input
+{
+	height: 30px;
+	padding: 5px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.servicelist .serviceheader
+{
+	margin:50px auto;
+	text-align: center;
+}
+.headerfooter
+{
+	height: 100px;
+	background-color: #52AAEA;
+	text-align: center;	
+}
+.inline
+{
+	display: inline-block;
+}
+.black
+{
+	color: #000000;
+}
+.bigger
+{
+	font-size: 3.5em;
+}
+.servicecontent
+{
+	width: 40%;
+	margin:40px;
+	display: inline-block;
+	color: #777777;
+}
+.servicecontent img
+{
+	float: left;
+	margin-right: 30px;
+}
+.servicecontent h2
+{
+	font-weight: 500;
+	font-size: 2em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.servicecontent #magenta
+{
+	color: #E02E86;
+}
+.servicecontent #green
+{
+	color: #62D53C;
+}
+.servicecontent #blue
+{
+	color: #3594E9;
+}
+.servicecontent #purple
+{
+	color: #882BCE;
+}
+
+.clients
+{
+	background-color: #ECECEC;
+	padding: 30px auto;
+	text-align: center;
+}
+.clients img
+{
+	display: inline-block;
+	margin: 30px 50px;
+}
+.benefits .benefit-item
+{
+	width: 32%;
+	margin:60px 5px;
+}
+.benefits .benefit-item img;
+{
+	float: left;
+}
+.mainfooter
+{
+	background-color: #212021;
+}
+.mainfooter .contact
+{
+	width: 30%;
+	margin: 50px 1%;
+	text-align: center;
+	display: inline-block;
+}
+.mainfooter #copyright
+{
+	color:white;
+	font-weight: 300;
+	font-size: 0.9rem;
+	text-align: center;
+	padding-bottom: 50px;
+	margin-top: 40px;
+}
+/*Media Queries*/
+
+@media (max-width: 1024px)
+{
+	.servicecontent
+	{
+		width: 90%;
+	}
+	.client img
+	{
+		display: block;
+		margin: auto;
+	}
+}
